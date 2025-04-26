@@ -1,0 +1,134 @@
+/* Reset & Layout */
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  color: #f0f0f0;
+}
+
+/* Main Title */
+h1 
+{
+  text-align: center;
+  padding: 30px;
+  font-size: 36px;
+  color: #00ffc8;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+
+/* Section Box */
+section 
+{
+  background: rgba(0, 0, 0, 0.4);
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1300px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  backdrop-filter: blur(5px);
+}
+
+/* Section Headings */
+section h2 
+{
+  color: #ffcd3c;
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+/* Bar Color */
+.bar 
+{
+  fill: #4fc3f7;
+  transition: fill 0.3s ease;
+}
+.bar:hover 
+{
+  fill: #81d4fa;
+}
+
+/* Tooltip for map */
+.tooltip 
+{
+  font-size: 14px;
+  color: #222;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(5px);
+}
+
+section svg 
+{
+  display: block;
+  margin: 0 auto;
+}
+
+.canva 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bar-chart 
+{
+  max-width:1300px;          
+  margin: 0 auto 40px auto;  
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow-x: auto;
+}
+
+#bar-chart svg 
+{
+  width: 100%;
+  min-width: 900px;
+  height: auto;
+  display: block;
+}
+
+.link-section 
+{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.link-section a 
+{
+  color: #80caff;
+  text-decoration: none;
+}
+
+.link-section a:hover 
+{
+  text-decoration: underline;
+}
+
+.section-desc 
+{
+  text-align: center;
+  font-size: 16px;
+  color: #cccccc;
+  margin: 15px auto 20px auto;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+
+
+
